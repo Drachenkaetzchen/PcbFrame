@@ -2,6 +2,8 @@ include <BOSL/constants.scad>;
 use <BOSL/metric_screws.scad>;
 $fn = 30;
 
+sliderBlock();
+
 module sliderBlock (length = 55, height = 10, thumbscrewHeight = 15, thumbscrewHeadDiameter=20, thumbscrewHeadHeight = 10) {
     difference() {
         cube([20, length, height], center = true);

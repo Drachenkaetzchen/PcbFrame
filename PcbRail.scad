@@ -1,6 +1,7 @@
 include <BOSL/constants.scad>;
 use <BOSL/metric_screws.scad>;
 
+pcbRail();
 
 
 module pcbRail (length=200,height=10,pcbThickness=1.6,pcbTolerance=0.2,slotDistance=1,slotInset=1.5) {
